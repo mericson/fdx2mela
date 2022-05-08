@@ -7,7 +7,6 @@ require 'pp'
 require 'slugify'
 require 'json'
 require 'zip'
-pp ARGV
 
 if ARGV.length != 2
   puts "Usage: "
