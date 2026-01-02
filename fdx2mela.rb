@@ -38,7 +38,7 @@ end
 
 puts "About to parse #{file} into recipes in directory #{outdir}"
 
-doc = File.open("cookbooks.fdx") { |f| Nokogiri::XML(f) }
+doc = File.open(file) { |f| Nokogiri::XML(f) }
 
 cookbooks  = {}
 categories = {}
